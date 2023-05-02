@@ -53,10 +53,12 @@ function nuevoMago() {
     let nombre = prompt("Ingrese su nombre: ");
     let apellido = prompt("Ingrese su apellido: ");
     let rango = prompt("Ingrese su rango (Alumno o profesor): ");
-    let casa = prompt("Ingrese su casa: ");
+    let casa = prompt("Ingrese su casa (Gryffindor, Hufflepuff, Ravenclaw, Slytherin): ");
     let mago = new Mago(nombre, apellido, rango, casa);
     arrayMago.push(mago);
     console.log(arrayMago);
+    alert(nombre + " " +apellido +" "+rango+" "+ casa)
+    alert("Gracias por registrarte")
 }
 
 // FUNCION PARA CUESTIONARIO INTERACTIVO
