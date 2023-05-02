@@ -5,13 +5,28 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-h1{
-    color: aliceblue;
+.texto{
+    color: white;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
-h2 {
-    color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
+.barranav{
+    background-color: rgba(59, 39, 4, 0.585);
+
 }
 
+.escudo{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.footer{
+    color: rgba(112, 62, 1, 0.678);
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}

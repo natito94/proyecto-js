@@ -65,9 +65,25 @@ function cuentionarioCasa() {
     alert("Como es tu primer año en la escuela, debemos seleccionar tu casa. Para ello simplemente deberas completar el siguiente cuentionario")
 
     let datoUno = parseInt(prompt("¿Qué cualidad crees que domina en vos? 1) Valentía 2) Inteligencia 3) Lealtad 4) Astucia"));
+    while(datoUno < 0 || datoUno > 4) {
+        alert("El valor no es valido, recuerda que debes agregar un valor del '1' al '4'");
+        datoUno = parseInt(prompt("¿Qué cualidad crees que domina en vos? 1) Valentía 2) Inteligencia 3) Lealtad 4) Astucia"));
+    }
     let datoDos = parseInt(prompt("¿Que piensas que es mas importante? 1) Amistad 2) Conocimiento 3) Fama  4) Poder"));
+    while(datoDos < 0 || datoDos > 4) {
+        alert("El valor no es valido, recuerda que debes agregar un valor del '1' al '4'");
+        datoDos = parseInt(prompt("¿Que piensas que es mas importante? 1) Amistad 2) Conocimiento 3) Fama  4) Poder"));
+    }
     let datoTres = parseInt(prompt("¿Que te atrae más de la magia? 1) Hechizos y Conjuros 2) Transformaciones 3) Adivinación 4) Posiones"));
+    while(datoTres < 0 || datoTres > 4) {
+        alert("El valor no es valido, recuerda que debes agregar un valor del '1' al '4'");
+        datoTres = parseInt(prompt("¿Que te atrae más de la magia? 1) Hechizos y Conjuros 2) Transformaciones 3) Adivinación 4) Posiones"));
+    }
     let datoCuatro = parseInt(prompt("¿Que objeto eligirias? 1) Una capa de invisibilidad 2) Una escoba 3) Un libro de hechizos 4) Una varita mágica"));
+    while(datoCuatro < 0 || datoCuatro > 4) {
+        alert("El valor no es valido, recuerda que debes agregar un valor del '1' al '4'");
+        datoCuatro = parseInt(prompt("¿Que objeto eligirias? 1) Una capa de invisibilidad 2) Una escoba 3) Un libro de hechizos 4) Una varita mágica"));
+    }
 
     let cantidadDeDatos = 4
     function casaMago(datoUno, datoDos, datoTres, datoCuatro, cantidadDeDatos) {
@@ -76,13 +92,13 @@ function cuentionarioCasa() {
     }
     let promedio = casaMago(datoUno, datoDos, datoTres, datoCuatro, cantidadDeDatos)
 
-    if (promedio = 2) {
+    if (promedio === 2) {
         alert("Ravenclaw")
-    } else if (promedio = 3) {
+    } else if (promedio === 3) {
         alert("Hufflepuff")
-    } else if (promedio = 4) {
+    } else if (promedio === 4) {
         alert("Slytherin")
-    } else if (promedio = 1) {
+    } else if (promedio === 1) {
         alert("Gryffindor")
     }
 }
