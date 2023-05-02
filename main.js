@@ -66,7 +66,6 @@ function nuevoMago() {
 }
 
 // FUNCION PARA CUESTIONARIO INTERACTIVO
-
 function cuentionarioCasa() {
     alert("Como es tu primer año en la escuela, debemos seleccionar tu casa. Para ello simplemente deberas completar el siguiente cuentionario")
 
@@ -120,7 +119,7 @@ function buscarMagosPorCasa() {
 }
 //FUNCION SALIDA DEL SIMULADOR
 function salir() {
-    alert("Buena suerte en todo tu año escolar");
+    alert("Buena suerte en tu año escolar");
 }
 // SE ESTABLECEN LOS ENLACES DEL MENU
 let opcion = menu();
