@@ -32,9 +32,9 @@ body {
 }
 
 .fondoBiblioteca{
-    background-image: url(../img/biblioteca-rep.jpg);
+    background-image: url(../img/bibliotecaenrep.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center center;
 }
