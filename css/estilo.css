@@ -35,6 +35,6 @@ body {
     background-image: url(../img/biblioteca-rep.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center center;
 }
