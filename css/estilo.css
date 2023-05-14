@@ -1,4 +1,4 @@
-body {
+.fondoDocumento {
     background-image: url(../img/Hogwarts-Legacy-Warner-Bros-Games-lancement-ventes-records--scaled.jpeg);
     height: 100vh;
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@ body {
     background-size: cover;
 }
 .texto{
-    color: white;
+    color: bisque;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -38,3 +38,19 @@ body {
     background-size: cover;
     background-position: center center;
 }
+
+.cards{
+    background-color: transparent;
+    align-items: center;
+    color: bisque;
+    }
+    
+    .boton{
+    background-color: black;
+    color: bisque;
+    }
+    .boton:hover{
+        background-color: rgba(0, 0, 0, 0.59);
+        color: bisque;
+    
+    }

@@ -1,4 +1,4 @@
-// SE ESTABLECE LA CLASE 'MAGO'
+/* // SE ESTABLECE LA CLASE 'MAGO'
 class Mago {
     constructor(nombre, apellido, rango, casa) {
         this.nombre = nombre;
@@ -140,3 +140,4 @@ switch (opcion) {
         alert("Lo siento, no contamos con esa opcion todavia");
         break;
 }
+ */
