@@ -31,7 +31,7 @@ const MaquillajeG = new Producto(21, "../img/tienda/cosm-gryff.webp", "Make up G
 const MaquillajeS = new Producto(22, "../img/tienda/cosm-slytherin.webp", "Make up Slytherin", "Make up exclusivo de cada casa", 1500)
 const MaquillajeH = new Producto(23, "../img/tienda/cosm-huff.webp", "Make up Hufflepuf", "Make up exclusivo de cada casa", 1500)
 const MaquillajeR = new Producto(24, "../img/tienda/cosm-raven.webp", "Make up Ravenclaw", "Make up exclusivo de cada casa", 1500)
-const MaquillajeReliquias = new Producto(25, "../img/tienda/hallows_Cosm.webp", "Maquillaje Reliquias", "Maquillaje exclusivo fabula", 1500)
+const MaquillajeReliquias = new Producto(25, "../img/tienda/Hallows_Cosm.webp", "Maquillaje Reliquias", "Maquillaje exclusivo fabula", 1500)
 const LibretaHog = new Producto(26, "../img/tienda/book-hogwarts.webp", "Libreta Hogwarts", "Libreta de notas, aplique dorado", 1200)
 
 

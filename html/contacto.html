@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/escudo-h.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/estilo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <title>Biblioteca | Hogwarts</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Contacto | Hogwarts</title>
 </head>
 
 <body class="fondoDocumento">
     <header>
         <nav class="navbar navbar-expand-lg barranav" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"> <img class="iconoNav" src="../img/escudo-h.png" alt="Escudo Hogwarts"> </a>
+                <a class="navbar-brand" href="../index.html"> <img class="iconoNav" src="../img/escudo-h.png"
+                        alt="Escudo Hogwarts"> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -36,18 +37,43 @@
             </div>
         </nav>
     </header>
-    <main>
-        <h1 class="textoTitulo">Biblioteca</h1>
-        <h2 class="subTitulo">Proximamente podras ver todos libros disponibles en nuestra biblioteca</h2>
-        <img class="imgBib" src="../img/biblioteca/Libros.png" alt="libros viejos">
+    <main class="mainContact">
+        <img  class="lechuza" src="../img/lechuza.png" alt="lechuza">
+        <h1 class="text-center textoTitulo">Area de contacto </h1> 
+       
     </main>
+    <form id="formulario">
+        <div class="formulario">
+            <div class="mt-3">
+                <label for="nombreformulario">Nombre</label>
+                <input type="text" class="form-control borderForm" id="nombre" placeholder="Ingrese su nombre" required>
+            </div>
+            <div class="mb-1">
+                <label for="apellidoformulario">Apellido</label>
+                <input type="text" class="form-control borderForm" id="apellido" placeholder="ingrese su apellido"
+                    required>
+            </div>
+            <div class="mb-1">
+                <label for="casaformulario">casa</label>
+                <input type="text" class="form-control borderForm" id="casa" placeholder="ingrese su casa" required>
+            </div>
+            <div>
+                <textarea class="form-control mt-3" name="" id="texto" cols="30" rows="10"
+                    placeholder="Deje su comentario"></textarea>
+            </div>
+            <div class="mb-1">
+                <button class="boton btn  mt-2 mb-3">Enviar</button>
+            </div>
+        </div>
+    </form>
     <footer>
         <h3 class="footer"> Todos los derechos reservados</h3>
-    </footer>
+      </footer>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-
+    <script src="../mensaje.js"></script>
 </body>
-
-</html>
