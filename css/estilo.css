@@ -177,7 +177,7 @@ header {
   
   @media (min-width:340px) and (max-width: 768px){
     .formulario {
-        margin: auto;
+        margin: 20px;
         width: 90%;
         max-width: fit-content;
 
