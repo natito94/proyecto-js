@@ -56,7 +56,7 @@ const mostrarTienda = () => {
            <h3 class="card-title">${producto.nombre}</h3>
            <p class="card-text">${producto.descripcion}</p>
            <p class="card-text">$${producto.precio}</p>
-           <button class="btn boton" id=botonCompra${producto.id}>Comprar</button>
+           <button class="btn boton" id=botonCompra${producto.id}>Agregar al Caldero</button>
          </div>
       </div>
      `

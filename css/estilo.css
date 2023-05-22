@@ -4,34 +4,54 @@
     src: url(../img/dumbledor.1-thin.ttf);
 }
 
+@font-face {
+    font-family: lumos;
+    src: url(../img/HARRYP__.TTF);
+}
+
 body {
     font-family: dombuldore;
+    background-image: url(../img/claro.jpeg);
+    color: bisque;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     
 }
 
-.fondoDocumento {
-    font-family: dombuldore;
-    background-image: url(../img/castillo.webp);
+.oscuro{
+    background-image: url(../img/oscuro.jpg);
+    font-family: lumos;
+    color: #04d643; 
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+.modoOscuro{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    position: fixed;
+    top: 70px;
+    right: 0;
+}
 
+.iconoMO{
+    width: 3vw;
+}
 
 .textoTitulo{
-    color: rgb(10, 10, 10);
     text-align: center;
     font-size: 5rem;
 }
 
 .subTitulo{
     font-size: 2.5;
-    color: rgb(7, 7, 7);
     text-align: center;
 }
 .texto {
-    color: rgb(5, 5, 5);
     text-align: center;
     font-size: 2rem;
     margin: auto;
@@ -58,28 +78,23 @@ header {
 }
 
 .footer {
-    color: rgba(112, 62, 1, 0.678);
+    color: rgba(73, 72, 72, 0.678);
     font-size: 15px;
     text-align: center;
 }
 
-/* .fondoBiblioteca {
-    background-image: url(../img/bibliotecaenreparacion.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    font-family: dombuldore;
-} */
-
 .cards {
     background-color: transparent;
+    color: bisque;
     align-items: center;
-    color: rgb(1, 1, 1);
     font-size: 1.5rem;
     margin: auto;
     transition: all 0.3s ease;
     border-color: transparent;
+}
+
+.oscuro .cards {
+    color: #04d643; 
 }
 
 .cards:hover {
@@ -90,12 +105,12 @@ header {
 .boton {
     font-size: 1.5rem;
     background-color: rgba(0, 0, 0, 0.59);
-    color: bisque;
+    color: white;
 }
 
 .boton:hover {
     background-color: black;
-    color: bisque;
+    color: white;
 
 }
 
@@ -130,7 +145,6 @@ header {
     background-image: url(../img/cartas.png);
     background-size: cover;
     background-position: center;
-    font-family: dombuldore;
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -141,6 +155,11 @@ header {
     border-radius: 7px;
     color: rgb(71, 48, 2);
     margin: auto;
+  }
+
+  .oscuro .formulario {
+    background-image: url(../img/carta-dos.png);
+    padding: 20px;
   }
 
   .botonForm{
