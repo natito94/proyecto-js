@@ -139,9 +139,10 @@ header {
   }
 
   .carrito{
-    background-color: rgba(64, 64, 84, 0.278);
+    background-color: rgba(64, 64, 84, 0.573);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
