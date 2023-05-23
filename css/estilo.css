@@ -130,7 +130,7 @@ header {
   line-height: 55px;
   justify-content: center;
   border-radius: 50%;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.93);
   transition: all 500ms ease;
   }
 
