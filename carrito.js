@@ -157,3 +157,9 @@ const FinCompra = () => {
     total.innerHTML = `El total de su compra es de:$${totalCompra} `
 
 }
+
+const finDeLaCompra = document.getElementById("fin")
+
+finDeLaCompra.addEventListener("click", () => {
+    Swal.fire("Gracias por su compra");
+ })
