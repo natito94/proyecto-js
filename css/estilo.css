@@ -20,6 +20,16 @@ body {
     
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(41, 42, 42, 0.7);
+}
+body::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+
 .oscuro{
     background-image: url(../img/oscuro.jpg);
     font-family: lumos;
@@ -29,6 +39,17 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.oscuro::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(41, 42, 42, 0.7);
+}
+.oscuro::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #04d643;
+  border-radius: 10px;
+}
+
 .modoOscuro{
     display: flex;
     flex-direction: row;
