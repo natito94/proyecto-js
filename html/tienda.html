@@ -31,9 +31,6 @@
                 <li class="nav-item">
                   <a class="nav-link" href="contacto.html">Contacto</a>
                 </li>
-              <li>
-              <a href=""> <img class="calderito" src="../img/caldero.png" alt="caldero"></a>
-            </li>
               </ul>
             </div>
           </div>
@@ -48,8 +45,36 @@
  </main>
 
 <div  id="contenedorTienda" class="row container-fluid tienda"></div>
-<h2 class="texto">Tu Caldero</h2>
-<!-- BOTONES -->
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn caldero" data-bs-toggle="modal" data-bs-target="#exampleModal" id="carrito">
+          <img class="calderito" src="../img/calderos.png" alt="caldero"></button>
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content carrito">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Tu Caldero de Compras</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body" id="contenedorCarrito">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn boton" id="eliminarCarrito">Vaciar Caldero</button>
+                <button type="button" class="btn boton" id="fin">Finalizar Compra</button>
+                <button type="button" class="btn boton" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+<!-- <h2 class="texto">Tu Caldero</h2>
+
 <div class="ms-auto">
 <button class="caldero btn" id="carrito"><img class="calderito" src="../img/caldero.png" alt="caldero"></button>
 <button class="btn boton" id="eliminarCarrito">Vaciar Caldero</button>
@@ -58,7 +83,7 @@
 <div id="contenedorCarrito" class="row">
 </div>
 <h3 class="texto"><span id="total" ></span></h3>
-
+ -->
 <footer>
   <h3 class="footer"> Todos los derechos reservados</h3>
 </footer>

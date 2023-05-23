@@ -34,12 +34,12 @@ body {
     flex-direction: row;
     align-items:flex-end;
     position: fixed;
-    top: 70px;
+    top: 100px;
     right: 0;
 }
 
 .iconoMO{
-    width: 30px;
+    width: 3vw;
 }
 
 .textoTitulo{
@@ -66,9 +66,6 @@ header {
     width: 5vw;
 }
 
-.calderito{
-    width: 3vw;
-}
 .escudo {
     width: 500px;
     display: flex;
@@ -114,10 +111,37 @@ header {
 
 }
 
-.icono {
-    width: 20px;
-    height: 20px;
-    color: black;
+.calderito{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 3.5vw;   
+}
+.caldero{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  top: 200px;
+  right: 10px;
+  background: bisque;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  transition: all 500ms ease;
+  }
+
+  .oscuro .caldero{
+    background: #04d643;
+  }
+
+  .carrito{
+    background-color: rgba(64, 64, 84, 0.278);
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -129,9 +153,6 @@ header {
     transform: scale(1.07);
 }
 
-.caldero{
-    background-color: rgba(193, 181, 181, 0.558)
-}
 
 .lechuza{
     width: 9vw;
@@ -181,6 +202,18 @@ header {
         width: 90%;
         max-width: 450px;
 
+    }
+    .iconoNav{
+        width: 50px;
+    }
+    .iconoMO{
+        width: 35px;
+    }
+    .calderito{
+        width: 35px;
+    }
+    .lechuza{
+        display: none;
     }
   }
 
