@@ -35,11 +35,23 @@ body {
     align-items:flex-end;
     position: fixed;
     top: 100px;
-    right: 0;
+    right: 10px;
 }
 
 .iconoMO{
     width: 3vw;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.93);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 85px;
+    right: 10px;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    justify-content: center;
+    border-radius: 50%;
 }
 
 .textoTitulo{
@@ -122,7 +134,7 @@ header {
   flex-direction: row;
   align-items: center;
   position: fixed;
-  top: 200px;
+  top: 150px;
   right: 10px;
   background: bisque;
   width: 55px;
@@ -208,7 +220,8 @@ header {
         width: 50px;
     }
     .iconoMO{
-        width: 35px;
+        width: 45px;
+
     }
     .calderito{
         width: 35px;
