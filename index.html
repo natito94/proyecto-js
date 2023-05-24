@@ -9,15 +9,17 @@
   <link rel="stylesheet" href="img/dumbledor.1-thin.ttf">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/estilo.css">
   <title> Hogwarts | Inicio </title>
 </head>
 
-<body class="fondoDocumento">
+<body>
+  <div id="particles-js"></div>
   <header>
     <nav class="navbar navbar-expand-lg barranav" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"> <img class="iconoNav" src="img/escudo-h.png" alt="Escudo Hogwarts"> </a>
+        <a class="navbar-brand" href="index.html"> <img class="iconoNav" src="img/escudo-h.png" alt="Escudo Hogwarts">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -39,14 +41,16 @@
   </header>
 
   <section class="modoOscuro">
-    <button class="btn botonV" id="modoOscuro"><img class="iconoMO" src="img/voldemort.png" alt="boton modo oscuro"></button>
+    <button class="btn botonV" id="modoOscuro"><img class="iconoMO" src="img/voldemort.png"
+        alt="boton modo oscuro"></button>
   </section>
 
   <main>
     <h1 class="textoTitulo">Bienvenido a Hogwarts</h1>
 
     <h2 class="subTitulo">La historia de Hogwarts</h2>
-    <p class="texto container">Hogwarts fue fundado por cuatro magos: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw y
+    <p class="texto container">Hogwarts fue fundado por cuatro magos: Godric Gryffindor, Helga Hufflepuff, Rowena
+      Ravenclaw y
       Salazar Slytherin.
       Estos se tomaban el trabajo de entrenar personalmente a sus estudiantes. Por un lado, Gryffindor solo quería
       enseñarles a aquellos que hayan logrado azañas. Hufflepuff quería instruir y tratar a todos por igual. Ravenclaw
@@ -71,6 +75,9 @@
   <footer>
     <h3 class="footer"> Todos los derechos reservados</h3>
   </footer>
+
+  <script src="js/particles.min.js"></script>
+  <script src="js/app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>

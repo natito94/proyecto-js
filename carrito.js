@@ -64,6 +64,15 @@ const mostrarTienda = () => {
 
      const boton = document.getElementById(`botonCompra${producto.id}`);
      boton.addEventListener("click",() => {
+        Toastify({
+            text: "Producto agregado al Caldero", 
+            duration: 3000,
+            gravity: "bottom", 
+            position: "right",
+            style: {
+                background: "#4f614f8b",
+              },
+        }).showToast();
         agregarCarrito(producto.id)
      })
 
