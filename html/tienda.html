@@ -13,7 +13,7 @@
   <title>Tienda | Hogwarts</title>
 </head>
 
-<body>
+<body onclick="playAudio()">
 
   <div id="particles-js"></div>
 
@@ -48,7 +48,7 @@
   </section>
   <main>
     <h1 class="textoTitulo">Bienvenidos a nuestra tienda</h1>
-    <h2 class="subTitulo">Esperamos que escuentres lo que buscas</h2>
+    <h2 class="subTitulo">Esperamos que encuentres lo que buscas</h2>
   </main>
 
   <div id="contenedorTienda" class="row container-fluid tienda"></div>
@@ -78,6 +78,7 @@
     </div>
   </div>
 
+  <audio controls loop id="audio" src="../audio/harry.mp3"></audio>
 
   <footer>
     <h3 class="footer"> Todos los derechos reservados</h3>

@@ -18,3 +18,9 @@ if(modo === "oscuro") {
 } else {
     document.body.classList.remove("oscuro");
 }
+
+//FUNCION MUSICA
+
+function playAudio () {
+    document.getElementById("audio").play()
+}
