@@ -1,4 +1,4 @@
-//MODO OSCURO:
+//MODO OSCURO
 
 const modoOscuro = document.getElementById("modoOscuro");
 

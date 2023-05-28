@@ -99,7 +99,7 @@ const agregarCarrito = (id) => {
 
 }
 
-//Boton de carrito
+//BOTON DE CARRITO
 const carritoCompras = document.getElementById("carrito");
 const contenedorCarrito = document.getElementById("contenedorCarrito");
 
@@ -168,6 +168,8 @@ const FinCompra = () => {
 }
 
 const finDeLaCompra = document.getElementById("fin")
+
+//SE AGREGA LA GALERIA
 
 finDeLaCompra.addEventListener("click", () => {
     Swal.fire("Gracias por su compra");

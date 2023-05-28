@@ -1,4 +1,7 @@
-/* // SE ESTABLECE LA CLASE 'MAGO'
+/* 
+ENTREGA 2 
+
+// SE ESTABLECE LA CLASE 'MAGO'
 class Mago {
     constructor(nombre, apellido, rango, casa) {
         this.nombre = nombre;

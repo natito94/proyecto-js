@@ -1,4 +1,4 @@
-
+//SE CREA EL FORMULARIO DE CONTACTO
 
 class Consulta {
     constructor(nombre, apellido, casa, texto ) {
