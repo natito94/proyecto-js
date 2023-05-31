@@ -1,7 +1,8 @@
-// Obtener una referencia al elemento <div> con el id "integrantes"
+//SE AGREGA LA API
+
 const integrantesS = document.getElementById('integrantesS');
 let characters = []
-// Realizar la solicitud HTTP a la API
+
 fetch('https://hp-api.onrender.com/api/characters/house/Slytherin')
 .then(respuesta=>respuesta .json())
 .then((datos) => {
@@ -21,7 +22,7 @@ function mostrarS (datos){
 
 const integrantesG = document.getElementById('integrantesG');
 let charactersG = []
-// Realizar la solicitud HTTP a la API
+
 fetch('https://hp-api.onrender.com/api/characters/house/gryffindor')
 .then(respuesta=>respuesta .json())
 .then((datos) => {
@@ -40,7 +41,7 @@ function mostrarG (datos){
 
 const integrantesH = document.getElementById('integrantesH');
 let charactersH = []
-// Realizar la solicitud HTTP a la API
+
 fetch('https://hp-api.onrender.com/api/characters/house/hufflepuff')
 .then(respuesta=>respuesta .json())
 .then((datos) => {
@@ -59,7 +60,7 @@ function mostrarH (datos){
 
 const integrantesR = document.getElementById('integrantesR');
 let charactersR = []
-// Realizar la solicitud HTTP a la API
+
 fetch('https://hp-api.onrender.com/api/characters/house/Ravenclaw')
 .then(respuesta=>respuesta .json())
 .then((datos) => {
